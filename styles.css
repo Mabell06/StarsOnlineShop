@@ -1,0 +1,91 @@
+body {
+    background-image: url('assets/Fondo.jpg');
+    background-size: cover; /* Ajustar la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evitar que la imagen se repita */
+    background-attachment: fixed; /* Fijar la imagen de fondo al viewport */
+    margin: 0; /* Eliminar márgenes por defecto */
+    font-family: Arial, sans-serif; /* Establecer una fuente de texto */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FF66B2;
+    color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #FF99CC;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #FFCCE5;
+}
+
+#ropa {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.producto {
+    background-color: #FF99CC;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    border: 5px solid #FF66B2;
+    padding: 10px;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto h3 {
+    margin: 10px 0;
+}
+
+footer {
+    background-color: #FF66B2;
+    color: black;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+}
+
+.columna {
+    flex: 1;
+    margin: 5px; 
+}
+
+.separador {
+    width: 2px;
+    background-color: black;
+    margin: 0 10px;
+}
